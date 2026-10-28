@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="carrinho.css">
+
+    <title>Meu Carrinho</title>
+</head>
+
+<body>
+
+    <!-- BOTÃO VOLTAR -->
+    <a href="inicial.html" style="display: inline-block;">
+        <img src="/imgs/voltar.png"
+             alt="Voltar"
+             class="btn-voltar">
+    </a>
+
+
+    <!-- CARRINHO -->
+    <div class="carrinho-container">
+
+        <h1 class="carrinho-titulo">
+            Meu Carrinho
+        </h1>
+
+
+        <!-- CARRINHO VAZIO -->
+        <div class="carrinho-vazio">
+
+            <h2>
+                Seu carrinho está vazio
+            </h2>
+
+            <p>
+                Adicione produtos para continuar
+            </p>
+
+        </div>
+
+
+        <!-- LISTA DE PRODUTOS -->
+        <div class="carrinho-lista">
+
+            <div class="carrinho-item">
+
+                <div class="item-info">
+
+                    <h3>
+                        Bolo de Chocolate
+                    </h3>
+
+                    <p>
+                        R$ 60,00
+                    </p>
+
+                </div>
+
+
+                <div class="item-quantidade">
+
+                    <button class="btn-qtd">
+                        −
+                    </button>
+
+                    <span>
+                        1
+                    </span>
+
+                    <button class="btn-qtd">
+                        +
+                    </button>
+
+                </div>
+
+
+                <button class="btn-remover">
+                    Remover
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- TOTAL -->
+        <div class="carrinho-total">
+
+            <h2>
+                Total: R$ 60,00
+            </h2>
+
+            <button class="btn-finalizar">
+                Finalizar Pedido
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
